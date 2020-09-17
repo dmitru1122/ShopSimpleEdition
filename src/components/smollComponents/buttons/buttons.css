@@ -1,0 +1,29 @@
+
+
+.button-all-collection {
+    padding-bottom: 10.7rem;
+    padding-top: 7.2rem;
+  }
+  .button-all-collection span{
+    padding: 1.25rem 2.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #D7B399;
+    border-radius: 0.5rem;
+    font-size: 1.14rem;
+  
+  }
+  
+  
+  
+  
+  .button-sale a{
+    background-color: #D7B399;
+    border-radius: 0.4rem;
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    padding: .5em 1.3em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  

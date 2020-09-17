@@ -1,0 +1,64 @@
+.page-to-add-iteam {
+    display: flex;
+    justify-content: center;
+}
+.for-add-iteam {
+    position: relative;
+    text-align: center;
+    padding: 3rem;
+    background-color: #F9F6F1;
+    margin: 3rem;
+    min-width: 250px;
+    min-height: 200px;
+    width: 30%;
+
+    border-radius: 0.9rem;
+    box-shadow: 5px 20px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.conteiner-list {
+    display: grid;
+    grid-template:  1fr auto 1fr / 1fr;
+    align-items: center;
+}
+
+.close-page-to-add {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+
+.close-page-to-add img{
+    width: 20px;
+}
+.close-page-to-add button{
+    background-color: #F9F6F1;
+    border: none;
+}
+.list {
+    text-align: left;
+}
+.list div{
+    display: flex;
+    flex-direction: column;
+}
+.list input {
+    border-radius: 0.4rem;
+    border: 0.2px solid black;
+}
+
+
+select {
+    border-radius: 0.4rem;
+}
+input, select {
+    background-color: white;
+}
+.orange {
+    background-color: #d7b399;
+    font-weight: 600;
+}
+
+
+.empty-option {
+    display: none;
+}

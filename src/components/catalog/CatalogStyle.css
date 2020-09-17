@@ -1,0 +1,152 @@
+
+
+  
+  
+  
+  
+  
+  
+  
+  .filter-list-conteiner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  
+  }
+  .filter-list {
+    padding-left: 4rem;
+  }
+  
+  .filter-ourself-show {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+.main {
+    display: flex;
+}
+.all-filter-conteiner {
+    width: 220px;
+    padding-right: 60px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+.catalog-content {
+    width: calc(100% - 280px);
+    background-color: #ffffff;
+  
+}
+.catalog-list {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.disable {
+    color: grey;
+}
+.normal {
+    color: black;
+}
+.to-first-page button{
+    padding-right: 0.6rem;
+}
+.to-privious-page button{
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+.to-second-page button{
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+.to-last-page button{
+    padding-left: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.for-change-bullet {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .for-change-bullet div {
+    text-align: left;
+    text-indent: -1rem;
+  }
+  .for-change-bullet div::before {
+    padding-left: 1rem;
+    padding-right: 2rem;
+    content:"•" ;
+    font-size: 1.5rem;
+  }
+  .add-bullet-red::before {
+    color: red;
+  }
+  .add-bullet-black::before {
+    color: black
+  }
+  .add-bullet-white::before{
+    color:white;
+  }
+  .add-bullet-green::before{
+    color: green;
+  }
+  .add-bullet-brown::before{
+    color: brown;
+  }
+  .add-bullet-yellow::before{
+    color: yellow;
+  }

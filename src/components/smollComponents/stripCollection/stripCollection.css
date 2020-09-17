@@ -1,0 +1,15 @@
+
+.strip {
+    padding-top: 10.7rem;
+  }
+  .strip__header {
+    font-size: 2.57rem;
+  }
+  .strip__content {
+    padding-top: 7.35rem;
+    padding-bottom: 7.35rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  

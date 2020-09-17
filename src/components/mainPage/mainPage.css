@@ -1,0 +1,199 @@
+.first-page-main {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    padding-top: 9.2em;
+    padding-bottom: 9.2rem;
+    min-height: 200px;
+    
+  }
+  .fp-main-left-block {
+    display: grid;
+    align-items: center;
+    grid-template: auto 1 auto / 1fr;
+    padding: 0.3rem;
+  }
+  .fp-main-right-block {
+    background-image: url(../images/shoes/onSale.png);
+    display: flex;
+    flex-flow: column ;
+    align-items: flex-end;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 35%;
+
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    width: 100%;
+    background-size: 100%;
+
+
+  
+  }
+  
+  .fp-main-right-block div {
+    max-height: 3rem;
+  }
+
+
+
+
+
+
+  
+  .header-sale {
+    font-size: 3.93rem;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+  }
+  .new-price {
+    font-size: 3rem;
+    color:#D84033;
+  }
+  
+  
+  
+  
+  .first-page-footer-conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .first-page-footer-conteiner div{
+    background-color: #D7B399;
+    border-radius: 0.4rem;
+    color: #D7B399;
+    margin: 0.2rem;
+    width: 4rem;
+    margin-bottom: 5rem
+  }
+  
+  
+  
+  
+  .second-page {
+    padding-top: 5.7rem;
+  }
+  .sp-head {
+    font-size: 2.14rem;
+    padding-bottom: 1.6rem;
+  }
+  .sp-description {
+    font-size: 1.5rem;
+    padding-bottom: 4.9rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* third-page */
+  .thp-man-conteiner,
+  .thp-woman-conteiner {
+    width: 45%;
+    min-width: 300px;
+  
+  }
+  
+  .thp-man-woman-collection {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+  }
+  
+  .thp-man-woman-collection {
+    justify-content: center;
+    background-color: #F9F6F1;;
+  }
+  
+  
+  .collection-header{
+    display: flex;
+    height: 14rem;
+    min-width: 22rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .man-collection,
+  .woman-collection {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+  }
+  
+  .jeans-man {
+    background-image: url(../images/collection/man/jeans/jeans_logo500.png);
+  }
+  .jacket-man{
+    background-image: url(../images/collection/man/jacket/leather_jacket_logo500.png);
+  }
+  .shirt-man{
+    background-image: url(../images/collection/man/shirt/dress_shirt_logo500.png);
+  }
+  .suits-man{
+    background-image: url(../images/collection/man/suit/suit_logo500.png);
+  }
+  
+  
+  
+  .jeans-woman {
+    background-image: url(../images/collection/woman/jeans/jeans_logo500.png);
+  }
+  .coats-woman {
+    background-image: url(../images/collection/woman/coat/fur_coat_logo500.png);
+  }
+  .dress-woman {
+    background-image: url(../images/collection/woman/dress/dress_logo500.png);
+  }
+  .kimono-woman {
+    background-image: url(../images/collection/woman/kimono/kimono_logo500.png);
+  }
+  
+  
+  
+  .element-new-collection {
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .fourth-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 5.14rem;
+    padding-top: 5.14rem;
+  }
+  .fourth-page__descridtion {
+    font-size: 2.14rem;
+  }
+  .fourth-page__mail input{
+    height: 2.85rem;
+    width: 18.2rem;
+    border-radius: 0.4rem;
+  }
+  .fourth-page__submit input{
+    height: 3.23rem;
+    width: 12rem;
+    border-radius: 0.4rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+  }
+  

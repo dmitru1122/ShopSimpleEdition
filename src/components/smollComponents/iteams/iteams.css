@@ -1,0 +1,49 @@
+.trade-position {
+    display: flex;
+    flex-flow: column;
+    background-image: url(../../images/border/border.png);
+    background-size: 100% 100%;
+    align-items: center;
+    flex: 1;
+    margin: 1% 1%;
+    width: 12rem;
+
+  }
+  .trade-position  img{
+    padding-top: 1rem;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+  }
+  .trade-position__price {
+    font-size: 1.289rem;
+    font-family: Montserrat;
+    color: #D7B399;
+  }
+  
+  
+  .element-collection-block {
+    /* padding-top: 90%; */
+    /* padding-bottom: 10%; */
+    /* width: 16.8rem; */
+    position: relative;
+  }
+  /* .element-collection-block::before {
+    display: block;
+    content: '';
+    width: 100%;
+  } */
+  .element-collection-name {
+    text-align: left;
+    position: relative;
+    /* top: 13.3rem; */
+    left: 2.14rem;
+    font-size: 1.5rem;
+    z-index: 2;
+  }
+  
+  .element-collection-name img {
+    width: 100%;
+  }
+  
+  
