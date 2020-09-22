@@ -12,10 +12,10 @@ class Main extends React.Component {
         const resultClass = this.props.styleClass + ' ' + 'main';
         return (
             <BrowserRouter >
-            <div className={resultClass}>
+            <main className={resultClass}>
                     <Route path="/catalog" component={Filter}/>
                     <Content path="/catalog" component={Content}/>
-            </div>
+            </main>
             </BrowserRouter>
         )
     }
