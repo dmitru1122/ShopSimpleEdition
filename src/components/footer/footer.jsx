@@ -48,9 +48,10 @@ function SameLink() {
 }
 
 function Footer(props) {
+    const footerClass = "footer " + props.styleClass;
+    
     return(
-        <div className={props.styleClass}>
-            <div className="footer">
+            <footer className={footerClass}>
                 <div className="footer-top">
                     <LogoDescrioption />
                     <SameLink />
@@ -59,8 +60,7 @@ function Footer(props) {
                     <div>All Check...</div>
                     <div>Rules</div>
                 </div>
-            </div>
-        </div>
+            </footer>
     )
 }
 
