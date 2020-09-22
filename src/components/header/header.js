@@ -70,7 +70,7 @@ class HeaderLeftPart extends React.Component {
 
 
         return (
-            <nav className="header-left-part-conteiner">
+            <div className="header-left-part-conteiner">
                 <div className="cursor-pointer" onClick={
                     () => this.handleClick('manVisibility')
                     } >For Men {ImageMan} <div>{checkMan}</div></div>
@@ -79,7 +79,7 @@ class HeaderLeftPart extends React.Component {
                     () => this.handleClick('womanVisibility')
                     } >For Women {ImageWoman}<div>{checkWoman}</div></div>
                 {/* if future instead it i must use chlid.function and it's element will be class */}
-            </nav>
+            </div>
         )
     }
 }
@@ -94,12 +94,13 @@ class HeaderLeftPart extends React.Component {
 
 function HeaderLogo() {
     return( 
-       <Link to="/"> 
-            <div className="header-logo-conteiner text1-7 to-main-page"  title="To main page">
-                <img src={Logo} /> 
+        <div className="header-logo-conteiner text1-7 to-main-page"  title="To main page">
+            <Link to="/"> 
+                <img src={Logo} title="Logo" alt="Vab.logo"/> 
                 <span style={{paddingLeft: '0.5em'}}>Vab</span>
-            </div>
-        </Link>
+            </Link>
+        </div>
+        
     )
 }
 
@@ -150,11 +151,11 @@ class ToAccount extends React.Component {
 }
 function HeaderRightPart() {
     return(
-        <nav className="header-right-part-conteiner">
+        <div className="header-right-part-conteiner">
             <Delivery />
             <Cart />
             <ToAccount />
-        </nav>
+        </div>
     )
 }
 
@@ -167,13 +168,13 @@ function HeaderRightPart() {
 
 function Header (props) {
     return(
-        <div className={props.styleClass}>
-            <article className="header content">
+        <nav className={props.styleClass}>
+            <div className="header content">
                 <HeaderLeftPart />
                 <HeaderLogo />
                 <HeaderRightPart />
-            </article>
-        </div>
+            </div>
+        </nav>
     )
 }
 
