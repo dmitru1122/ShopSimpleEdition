@@ -120,9 +120,9 @@ class AllElement extends React.Component {
 
     // fetch iteam from server
     async componentDidMount() {
-        // // const response = await fetch('http://v3339321.beget.ech/localhost');
-        // const json = await response.json();
-        // this.setState({data: json});
+        const response = await fetch('http://localhost:8000/posts');
+        const json = await response.json();
+        this.setState({data: json});
         
     }
 
