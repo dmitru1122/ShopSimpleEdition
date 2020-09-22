@@ -54,7 +54,7 @@ class AllFilter extends React.Component {
     const typeCollection = this.props.type;
         return (
             <Router>
-                    <div className="all-filter-conteiner">
+                    <section className="all-filter-conteiner">
                     <Route path="/catalog/forJeans" component={ForJeans}/>
                     <Route path="/catalog/forJacket" component={ForJacket}/>
                     <Route path="/catalog/forShirt"   component={ForShirt}/>
@@ -63,7 +63,7 @@ class AllFilter extends React.Component {
                     <Route path="/catalog/forAll"  component={ForAll} />
                     
                 
-                    </div>
+                    </section>
                
             </Router>
         )
