@@ -1,6 +1,12 @@
-For use all app, you should create json.server use file db.json in  (localhost:8000)
-
+Totorial:
 1 step:
-npm install json.server 
+git collect url
+
 2 step:
+ npm install 
+
+3 step:
+npm install json.server 
+
+4 step:
 json-server --watch -p8000 db.json
