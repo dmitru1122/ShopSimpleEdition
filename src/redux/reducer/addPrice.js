@@ -1,5 +1,5 @@
 import * as actionsType from '../actions/actionsType';
-import * as action from '../actions/addPrice';
+// import * as action from '../actions/addPrice';
 
 const initialState = {
     // price: {
@@ -13,7 +13,7 @@ export const addPrice = (state = initialState, action) => {
         case actionsType.ADDITEAMPRICE:
             console.log( 'in reducer ' + action.payload);
              return state = {
-                 nr: state.nr,
+                //  nr: state.nr,
                 ...state, 
                 // price: {
                 //     ...state.price,
