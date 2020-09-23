@@ -55,6 +55,7 @@ class AllFilter extends React.Component {
         return (
             <Router>
                     <section className="all-filter-conteiner">
+<<<<<<< HEAD
                     <Route path="/catalog/forJeans" component={ForJeans}/>
                     <Route path="/catalog/forJacket" component={ForJacket}/>
                     <Route path="/catalog/forShirt"   component={ForShirt}/>
@@ -62,6 +63,15 @@ class AllFilter extends React.Component {
                     <Route path="/catalog/forDresses" component={ForWomanDress} />
                     <Route path="/catalog/forAll"  component={ForAll} />
                     
+=======
+                        <Route path="/catalog/forJeans" component={ForJeans}/>
+                        <Route path="/catalog/forJacket" component={ForJacket}/>
+                        <Route path="/catalog/forShirt"   component={ForShirt}/>
+                        <Route path="/catalog/forShoes"  component={ForShoes}/>
+                        <Route path="/catalog/forDresses" component={ForWomanDress} />
+                        <Route path="/catalog/forAll"  component={ForAll} />
+                        
+>>>>>>> origin/developer
                 
                     </section>
                

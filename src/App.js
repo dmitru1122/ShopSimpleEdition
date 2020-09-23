@@ -16,7 +16,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <>
         <Router>
           <Header/>
 
@@ -33,7 +33,7 @@ class App extends React.Component {
 
             <Footer />
         </Router>
-      </div>
+      </>
     );
   }
 }

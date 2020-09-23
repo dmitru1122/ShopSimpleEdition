@@ -22,16 +22,16 @@ const links ={
 //     // console.log(response);
 
 // }
-function getCollection() {
-    fetch('http://localhost:8000/posts').then(async (result) => {
-        if (result.ok) {
-            let res = await result.json();
-            // let map = res.map(c => console.log(c));
-        }
-    })
-}
+// function getCollection() {
+//     fetch('http://localhost:8000/posts').then(async (result) => {
+//         if (result.ok) {
+//             let res = await result.json();
+//             // let map = res.map(c => console.log(c));
+//         }
+//     })
+// }
 
-getCollection();
+// getCollection();
 
 let shirt = {
     id: 1,
