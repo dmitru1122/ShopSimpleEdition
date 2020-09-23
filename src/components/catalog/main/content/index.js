@@ -1,13 +1,13 @@
 import React from 'react';
 // import ForJeans from './iteams/jeans';
-import { getDefaultNormalizer } from '@testing-library/react';
+// import { getDefaultNormalizer } from '@testing-library/react';
 // import ShirtExample from './iteams/shirtExample';
 import Element from './element';
-import {useState, useEffect} from 'react';
+// import {useState, useEffect} from 'react';
 // import Filter from './checkFilter';
 
-import { connect } from 'react-redux';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+// import { connect } from 'react-redux';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 // let res = [];

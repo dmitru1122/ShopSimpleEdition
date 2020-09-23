@@ -1,5 +1,5 @@
 import React from 'react';
-import {useDispatch, useSelector} from 'react-redux';
+// import {useDispatch, useSelector} from 'react-redux';
 import Price from '../univerasl/price';
 import ColorFilter from '../univerasl/colorFilter';
 import Size from '../univerasl/size';

@@ -1,6 +1,6 @@
 import React from 'react';
 // import SeconalSale from '../smollComponents/';
-import buttonSaleCollection from '../../smollComponents/buttons/buttonSaleCollection';
+// import buttonSaleCollection from '../../smollComponents/buttons/buttonSaleCollection';
 import ButtonSale from '../../smollComponents/buttons/buttonSaleCollection';
 // import SaleImage from '../images/shoes/saleHead.png'
 import lp from '../../images/shoes/onSale600.png';

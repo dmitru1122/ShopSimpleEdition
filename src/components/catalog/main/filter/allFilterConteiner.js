@@ -6,7 +6,7 @@ import ForShoes from './forShoes/allForShoes';
 import ForWomanDress from './forDresses/allForDress';
 import ForAll from './forAll/forAll';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 

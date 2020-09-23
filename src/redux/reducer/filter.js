@@ -1,5 +1,5 @@
 import * as actionType from '../actions/actionsType';
-import * as action from '../actions/jeans';
+// import * as action from '../actions/jeans';
 
 // export const category = (state = initialState, action) => {
 //     switch(action.type) {

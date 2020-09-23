@@ -1,18 +1,18 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './addIteam.css';
 import Cross from '../images/icon/cross-black-button.png';
 
 
-import {useSelector, useDispatch, connect } from 'react-redux';
-import {addIteam} from '../../redux/actions/addIteam';
+import {connect } from 'react-redux';
+// import {addIteam} from '../../redux/actions/addIteam';
 import * as actionsType from '../../redux/actions/actionsType';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 import {Link} from 'react-router-dom';
 
-import ColorFilter from '../catalog/main/filter/univerasl/colorFilter';
-import Length from '../catalog/main/filter/forJacket/length';
-import Size from '../catalog/main/filter/univerasl/size';
+// import ColorFilter from '../catalog/main/filter/univerasl/colorFilter';
+// import Length from '../catalog/main/filter/forJacket/length';
+// import Size from '../catalog/main/filter/univerasl/size';
 
 
 class AddIteam extends React.Component {

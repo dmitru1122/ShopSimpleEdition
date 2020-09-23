@@ -1,4 +1,3 @@
-import React from 'react';
 
 function priceCheck (price, objFilter) {
     if(price < 10 ) {

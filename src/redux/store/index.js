@@ -1,7 +1,7 @@
-import { createStore, applyMiddleware } from 'redux';
+import { createStore} from 'redux';
 import allReducer from '../reducer/index';
-import * as actionsType from '../actions/actionsType';
-import logger from 'redux-logger';
+// import * as actionsType from '../actions/actionsType';
+// import logger from 'redux-logger';
 
 const myLogger = (state) => (next) => (action) => {
   console.log(action);

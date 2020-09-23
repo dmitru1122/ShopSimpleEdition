@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import AddIteam from './components/addIteams/index';
 import MainPage from './components/mainPage/index';

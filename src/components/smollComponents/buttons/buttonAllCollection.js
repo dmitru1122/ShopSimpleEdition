@@ -7,7 +7,7 @@ function ButtonAllCollection() {
     return (
         <Link to="/catalog/forAll" title='go to the whole collection'>
         <div className='button-all-collection'>
-            <span>All collection</span> <img src={arrow} />
+            <span>All collection</span> <img src={arrow} alt="all collection" title="go to all collection"/>
         </div>
         </Link>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import * as actions from '../../../../../redux/actions/index';
+// import * as actions from '../../../../../redux/actions/index';
 
 // import {useSelector, useDispathch} from 'react-redux';
 
