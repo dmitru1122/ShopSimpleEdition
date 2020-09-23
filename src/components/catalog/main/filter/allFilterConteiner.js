@@ -54,16 +54,16 @@ class AllFilter extends React.Component {
     const typeCollection = this.props.type;
         return (
             <Router>
-                    <form className="all-filter-conteiner">
-                    <Route path="/catalog/forJeans" component={ForJeans}/>
-                    <Route path="/catalog/forJacket" component={ForJacket}/>
-                    <Route path="/catalog/forShirt"   component={ForShirt}/>
-                    <Route path="/catalog/forShoes"  component={ForShoes}/>
-                    <Route path="/catalog/forDresses" component={ForWomanDress} />
-                    <Route path="/catalog/forAll"  component={ForAll} />
-                    
+                    <section className="all-filter-conteiner">
+                        <Route path="/catalog/forJeans" component={ForJeans}/>
+                        <Route path="/catalog/forJacket" component={ForJacket}/>
+                        <Route path="/catalog/forShirt"   component={ForShirt}/>
+                        <Route path="/catalog/forShoes"  component={ForShoes}/>
+                        <Route path="/catalog/forDresses" component={ForWomanDress} />
+                        <Route path="/catalog/forAll"  component={ForAll} />
+                        
                 
-                    </form>
+                    </section>
                
             </Router>
         )
