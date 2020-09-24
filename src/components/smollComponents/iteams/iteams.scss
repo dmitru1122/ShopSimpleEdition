@@ -8,13 +8,13 @@
     margin: 1% 1%;
     width: 12rem;
 
+    img{
+      padding-top: 1rem;
+      height: 100%;
+      width: 100%;
+      max-height: 100%;
   }
-  .trade-position  img{
-    padding-top: 1rem;
-    height: 100%;
-    width: 100%;
-    max-height: 100%;
-  }
+}
   .trade-position__price {
     font-size: 1.289rem;
     font-family: Montserrat;

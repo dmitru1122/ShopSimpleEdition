@@ -1,6 +1,6 @@
 import React from 'react';
 import arrow from '../../images/icon/Arrow.svg';
-import './buttons.css';
+import './buttons.scss';
 import {Link} from 'react-router-dom';
 
 function ButtonAllCollection() {

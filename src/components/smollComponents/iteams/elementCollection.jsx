@@ -1,6 +1,6 @@
 import React from 'react';
 import Test from '../../images/collection/man/jacket/leather_jacket_logo500.png';
-import './iteams.css';
+import './iteams.scss';
 
 function Element(props) {   
     let classStyle =  + ' ' + 'background-image element-collection-block';

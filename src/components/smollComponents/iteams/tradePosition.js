@@ -1,7 +1,7 @@
 // in this file i must write function for all prodact what i will sell(image with description)
 
 import React from 'react';
-import './iteams.css';
+import './iteams.scss';
 
 class TradePosition extends React.Component {
     constructor(props) {
